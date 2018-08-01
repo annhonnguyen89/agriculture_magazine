@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jul 25 23:15:30 2018
-
-@author: Thinkpad
 """
 
 import tkinter
@@ -134,18 +131,4 @@ class EntryGrid(tkinter.Tk):
     def set(self, x, y, v):
         self.gridDict[(x,y)].set(v)
         return v
-'''
-if __name__ == "__main__":
-    cols = ['Title', 'Summary', 'Link']
-    rows = ['1', '2', '3']
-    title_list = ["t1", "t2", "t3"]
-    summary_list = ["s1", "s2", "s3"]
-    link_list = ["l1", "l2", "l3"]
-    
-    df_data = {'title': title_list, 'summary': summary_list, 'link': link_list}
-    app = EntryGrid(cols, rows, df_data)
-    app.demo()
-'''
-
-
     
