@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Created on Sat Jul 21 01:53:23 2018
-https://arxiv.org/abs/1602.03606
 document summarization
-@author: Thinkpad
-Yandex key: "trnsl.1.1.20180721T105414Z.d2f019e156566dca.6f5f0ae60b8ea34ad5ee3dc2e6b85f6b642f3f86"
+Yandex key: "trnsl.1.1.2...f86"
 """
 
 import logging
@@ -25,7 +22,6 @@ def sumarize(text):
     return (sumtext)
 
 def creat_gui(df_all_data):
-    
     root = Tk()   
     height = df_all_data.shape[0]
     width = df_all_data.shape[1]
@@ -38,7 +34,7 @@ def creat_gui(df_all_data):
     
 def translate(text, trans_direction):
     # translate text from English to VietNamese
-    api_key = "trnsl.1.1.20180721T105414Z.d2f019e156566dca.6f5f0ae60b8ea34ad5ee3dc2e6b85f6b642f3f86"
+    api_key = "trnsl.1.1.2...3f86"
     link = "https://translate.yandex.net/api/v1.5/tr.json/translate?"
     r = requests.post(link, data={'lang': trans_direction, 'key': api_key, 'text': text})
     try:
