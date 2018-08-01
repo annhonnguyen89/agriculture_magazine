@@ -1,2 +1,4 @@
 # agriculture_magazine
-This is an application to summarize article about agriculture and translate it into Dutch and Vietnamese
+This is my on-going personal project 
+It is an application to summarize article from https://smartfarmerkenya.com/category/how-to/ about agriculture and translate the summary into Dutch and Vietnamese.
+
